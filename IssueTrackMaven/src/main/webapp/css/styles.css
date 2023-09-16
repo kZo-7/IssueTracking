@@ -1,0 +1,593 @@
+@charset "UTF-8";
+
+/* LOGINHEADER.jsp styles */
+.loginHeaderTopNav {
+	box-sizing: border-box;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	height: 10vh;
+	background-color: #333333;
+}
+.loginHeaderTopNav .nameApp {
+		overflow: hidden;
+		height: 10vh;
+		color: #f1f1f1;
+		font-size: 3em;
+		/* font-size: calc(0.5em + 1.75vw); */
+		text-align: center;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+#appTitle {
+	color: #f1f1f1;
+}
+
+#appTitle:hover {
+	color: #f1f1f1;
+}
+
+@media screen and (max-width: 750px) {
+	.loginHeaderTopNav .nameApp {
+    	font-size: 2em;
+	}
+}
+
+
+/* MAINHEADER.jsp styles */
+.topnav {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #333333;
+    display: flex;
+    border-size: border-box;
+    justify-content: space-between;
+}
+.topnav a.home {
+    /* float: left; */
+    overflow: hidden;
+    width: 14vw;
+    height: 10vh;
+    color: #f2f2f2;
+    font-size: calc(0.5em + 1.75vw);
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topnav span {
+    font-size: calc(0.7em + 1.75vw);
+    /* margin-left: calc(0.5em + 34.5vw); */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 25vw;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.topnav a.logout {
+    float: right;
+    height: 10vh;
+    color: #f2f2f2;
+    padding-right: 1vw;
+    text-decoration: none;
+    font-size: calc(0.5em + 0.8vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topnav a.home:hover {
+    background-color: #FFB2B2;
+    color: #1d1d1d;
+}
+.topnav a.logout:hover {
+    color: #FFB2B2;
+}
+
+/* @media screen and (max-width: 750px) {
+	.mainHeaderTopNav .nameApp {
+    	font-size: 2em;
+	}
+} */
+
+/* SIDEMENU styles */
+.sidenav {
+	border-size: border-box;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1;
+    left: 0;
+    top: 10vh;
+    bottom: 12vh;
+    height: 82vh;
+    width: 14.275vw;
+    padding-top: 3vh;
+    background-color: #111;
+    text-align: center;
+}
+.sidenav::-webkit-scrollbar {
+    display: none;
+}
+.sidenav .dropdown-btn {
+    position: relative;
+    padding: 3vh 1vw;
+    left: 0;
+    display: block;
+    font-size: calc(0.5em + 1.3vw);
+    color: #818181;
+    text-decoration: none;
+}
+.sidenav .dropdown-btn .loginUserID{
+	box-sizing: border-box;
+	color: #FFB2B2;
+	display: block;
+	font-size: calc(0.2em + 0.7vw);
+	position: relative;
+	top: calc(6vw + 20vh);
+}
+
+.sidenav .dropdown-btn input.sideInput[type=submit] {
+	color: #818181;
+    background: none;
+    padding: 1vh;
+    width: 8vw;
+    font-size: calc(1vh + 0.5em);
+    border: none;
+    cursor: pointer;
+}
+.sidenav .dropdown-btn input.sideInput[type=submit]:hover {
+	color: #A5C9FF;
+    background: none;
+    padding: 1vh;
+    width: 8vw;
+    font-size: calc(1vh + 0.5em);
+    border: none;
+    cursor: pointer;
+}
+.sidenav a.item {
+    position: relative;
+    padding: 1.5vh 1vw;
+    left: 0;
+    display: block;
+    font-size: calc(0.4em + 1vw);
+    color: #818181;
+    text-decoration: none;
+}
+.sidenav a:hover {
+    color: #A5C9FF;
+}
+
+#issueH2 {
+	font-size: calc(0.5em + 1.3vw);
+	display: inline-block;
+}
+
+/* ISSUES mainApp.jsp page styles */
+.main {
+    position: absolute;
+    overflow-y: auto;
+    font-size: calc(0.5em + 0.9vw);
+    padding-left: calc(0.5em + 0.5vw);
+    padding-right: calc(0.5em + 0.5vw);
+    top: 10vh;
+    bottom: 6vh;
+    left: 14vw;
+    right: 0;
+    height: auto;
+}
+.main .issue .issue-container{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 2vw 1vh;
+	width: 100%;
+}
+
+.main .issueList .issue-container{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2vw 1vh;
+	width: 100%;
+}
+
+.main .issue .issue-container Form.issueForm .boxBtn {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+#backElem {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3vw 8vh;
+}
+#issListStatus {
+	box-sizing: border-box;
+	width:10vw;
+}
+#issueList  {
+	border: 0;
+}
+
+.main .issue div {
+	padding: 0.5vw 4vh;
+}
+
+.main h2 {
+	font-size: calc(0.5em + 1vw);
+	text-align: center;
+	padding: 2vw 2vh;
+}
+.main form.issueForm {
+    text-align: center;
+    max-width: 20vw;
+}
+.main input {
+    padding: 1vh;
+    width: 10vw;
+}
+.main div.issueList div.boxBtn table#issueList tbody {
+    border: 0;
+    padding-right: 1vw;
+    text-align: center;
+}
+.main div.issueList div.boxBtn table#issueList , table#issueList tr, table#issueList td
+.main .info th, .info tr, .info td {
+    border: 0;
+    padding-right: 1vw;
+    text-align: left;
+}
+
+.issue table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.issueList table {
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.issue th {
+    width: 20vw;
+}
+.issue select{
+    padding: 0.8vh;
+    background-color: black;
+    color: #f1f1f1;
+    border-radius: 4px;
+    text-align-last: center;
+}
+.issue input[type=text]{
+    background-color: black;
+    color: #f1f1f1;
+    border: 0.5px solid #818181;
+    width: 19.5vw;
+    text-align: center;
+}
+.issue input[type=password]{
+    background-color: black;
+    color: #f1f1f1;
+    border: 0.5px solid #818181;
+    width: 19.5vw;
+    text-align: center;
+}
+
+.issuedelete table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.issuedelete th {
+    width: 20vw;
+}
+.issuedelete select{
+    padding: 0.8vh;
+    background-color: black;
+    color: #f1f1f1;
+    border-radius: 4px;
+    text-align-last: center;
+}
+.issuedelete input[type=text]{
+    background-color: black;
+    color: #f1f1f1;
+    border: 0;
+    width: 19.5vw;
+    text-align: center;
+}
+.issuedelete input[type=password]{
+    background-color: black;
+    color: #f1f1f1;
+    border: 0;
+    width: 19.5vw;
+    text-align: center;
+}
+.issuedelete input[type=checkbox][readonly] {
+    pointer-events: none;
+}
+
+
+/* .jsp file styles */
+body {
+	margin: 0;
+	background-color: #1d1d1d;
+	color: #d1d1d1;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	font-size: 2.4em;
+	margin: 0.83em 0 0.33em;
+}
+h4 {
+	margin: 0.13em 0 0.33em;
+}
+
+a {
+	color: #A5C9FF;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 0 3px;
+}
+a:hover {
+	color: #FFB2B2;
+}
+
+    height: 6vh;
+}
+th {
+    height: 7vh;
+}
+table, thead, tbody, th, td, tr {
+    border: 0;
+	/*border: 1px solid rgba(143, 143, 143, 0.4);*/
+	border-collapse: collapse;
+}
+form {
+    font-size: calc(0.5em + 0.9vw);
+    text-align: center;
+}
+input[type=text] {
+    padding: 1vh;
+    width: 10vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=password] {
+    padding: 1vh;
+    width: 10vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit] {
+	color: #f1f1f1;
+    background-color: #5f5f5f;
+    padding: 1vh;
+    width: 10vw;
+    border: none;
+    border-radius: 5px;
+}
+input[type=submit]:hover {
+	color: #1d1d1d;
+    background-color: #A5C9FF;
+    cursor: pointer;
+}
+
+/* INDEX.jsp start page */
+td.indexTd {
+	text-align: left !important;
+	padding: 0.45em 0.5em;
+}
+
+/* SIGNUP */
+.signup {
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+	text-align: center;
+	max-width: 30vw;
+	min-width: 20vw;
+	padding: 2vh 1vw;
+}
+
+.signup table.info {
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+}
+
+.signup .info tr, .info td {
+	border: 0;
+	text-align: center;
+}
+
+.signup .info th {
+	border: 0;
+	padding-right: 1vw;
+	text-align: right;
+}
+
+.signup input[type=text] {
+	padding: 0.45em 0.5em;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.signup input[type=password] {
+	padding: 0.45em 0.5em;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.signup input[type=submit] {
+	background-color: #FFB2B2;
+	border: 1px solid #FFB2B2;
+	border-radius: 5px;
+	color: #1d1d1d;
+	cursor: pointer !important;
+	font-weight: 600;
+	padding: 0.45em 0.5em;
+	/* width: 8vw; */
+	min-width: 75px;
+}
+
+.signup input[type=submit]:hover {
+	background-color: #A5C9FF;
+	border: 1px solid #A5C9FF;
+}
+
+#submitInput {
+	box-sizing: border-box;
+	text-align: left;
+	padding: 4vh 0 0;
+	/* max-width: 8vw; */
+}
+
+.signup .info .existOrNoUserRow {
+	font-size: 0.86rem;
+	opacity: 0.6;
+	font-weight: 100;
+}
+
+.signup .info .existOrNoUserCell {
+	font-size: 0.86rem;
+}
+
+/* LOG IN */
+.login {
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+	text-align: center;
+	max-width: 30vw;
+	min-width: 16vw;
+	padding: 2vh 1vw;
+}
+.login 
+
+.login table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login table tr, table td {
+	border: 0;
+	text-align: center;
+}
+
+.login table th {
+	border: 0;
+	padding-right: 1vw;
+	text-align: center;
+}
+
+.login input[type=text] {
+	padding: 0.45em 0.5em;
+	width: 10vw;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.login input[type=password] {
+	padding: 0.45em 0.5em;
+	width: 10vw;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.login input[type=submit] {
+	background-color: #FFB2B2;
+	border: 1px solid #FFB2B2;
+	border-radius: 5px;
+	color: #1d1d1d;
+	cursor: pointer !important;
+	font-weight: 600;
+	padding: 0.45em 0.5em;
+	/* width: 8vw; */
+	min-width: 75px;
+}
+
+}
+.login input[type=submit]:hover {
+	background-color: #A5C9FF;
+	border: 1px solid #A5C9FF;
+}
+
+.login .tableInfo .existOrNoUserRow {
+	font-size: 0.86rem;
+	opacity: 0.6;
+	font-weight: 100;
+}
+
+.login .tableInfo .existOrNoUserCell {
+	font-size: 0.86rem;
+}
+
+#loginInput {
+	box-sizing: border-box;
+	text-align: left;
+	padding: 4vh 0 0;
+	/* max-width: 8vw; */
+}
+#loginInput input:hover {
+	background-color: #A5C9FF;
+	border: 1px solid #A5C9FF;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 750px) {
+	h2 {
+		font-size: 1.8em;
+		margin: 0.53em 0 0.23em;
+	}
+}
+
+/*-- FOOTER.jsp styles */
+.bottom {
+	box-sizing: border-box;
+	overflow: hidden;
+	position: absolute;
+	display: flex;
+	bottom: 0;
+	height: 5vh;
+	width: 100%;
+	background-color: #333333;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom a span {
+	color: #f1f1f1;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: calc(0.6em + 0.5vw);
+	opacity: 0.5;
+}
+
+.bottom a span:hover {
+	color: #A5C9FF;
+	opacity: 0.85;
+}

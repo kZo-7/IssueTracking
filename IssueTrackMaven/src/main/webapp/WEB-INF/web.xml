@@ -1,0 +1,78 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>kzo.issuetracking.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignupServlet</servlet-name>
+  	<display-name>SignupServlet</display-name>
+  	<description></description>
+  	<servlet-class>kzo.issuetracking.controller.SignupServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MainAppServlet</servlet-name>
+  	<display-name>MainAppServlet</display-name>
+  	<description></description>
+  	<servlet-class>kzo.issuetracking.controller.MainAppServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>kzo.issuetracking.controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>IssueListServlet</servlet-name>
+  	<display-name>IssueListServlet</display-name>
+  	<description></description>
+  	<servlet-class>kzo.issuetracking.controller.IssueListServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>IssueAddServlet</servlet-name>
+  	<display-name>IssueAddServlet</display-name>
+  	<description></description>
+  	<servlet-class>kzo.issuetracking.controller.IssueAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>IssueServlet</servlet-name>
+  	<display-name>IssueServlet</display-name>
+  	<description></description>
+  	<servlet-class>kzo.issuetracking.controller.IssueServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignupServlet</servlet-name>
+  	<url-pattern>/SignupServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MainAppServlet</servlet-name>
+  	<url-pattern>/MainAppServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>IssueListServlet</servlet-name>
+  	<url-pattern>/IssueListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>IssueAddServlet</servlet-name>
+  	<url-pattern>/IssueAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>IssueServlet</servlet-name>
+  	<url-pattern>/IssueServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
