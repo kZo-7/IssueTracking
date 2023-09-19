@@ -2,7 +2,7 @@
 A Web App that allow users to add, delete, edit and view issues depending on status.
 
 ### Details
-There is a Login/Signup form. After login, the users can view the existed issues by status. They can also add/delete/edit an issue. The app is built on Java, 
+There is a Login/Signup and logout functionality. After login, the users can view the existed issues by status. They can also add/delete/edit an issue. The app is built on Java using mySQL database and Apache Tomcat server.
 
 
 ### Tecnologies & Tools used
