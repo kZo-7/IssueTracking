@@ -19,6 +19,8 @@ There is a Login/Signup and logout functionality. After login, the users can vie
 ``` Eclipse IDE 2019-09 ```
 
 ### Installation
+You have to have Jav Development Kit 8 installed on your system.
+
 After cloning the repository in your computer using Eclipse, you will probably need to these for working properly :
 - Right click on project -> Properties -> Java Compiler: Change to Java Compiler 1.8
 - Right click on project -> Properties -> Projects Facets -> Java -> Change to Java Version 1.8
