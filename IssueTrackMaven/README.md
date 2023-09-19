@@ -7,15 +7,15 @@ There is a Login/Signup and logout functionality. After login, the users can vie
 
 ### Tecnologies & Tools used
 
-- Front End
+- Front End: 
 ``` HTML, JSP, CSS ```
-- Server Side
+- Server Side: 
 ``` Servlet ```
-- Back End
+- Back End: 
 ``` MYSQL 8.0.34 ```
-- Server
+- Server: 
 ``` Tomcat 9.0 ```
-- Tools
+- Tools: 
 ``` Eclipse IDE 2019-09 ```
 
 ### Installation
