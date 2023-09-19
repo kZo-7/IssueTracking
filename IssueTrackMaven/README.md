@@ -6,13 +6,17 @@ There is a Login/Signup and logout functionality. After login, the users can vie
 
 
 ### Tecnologies & Tools used
-```
-- Front End: HTML, JSP, CSS
-- Server Side: Servlet
-- Back End: MYSQL 8.0.34
-- Server: Tomcat 9.0
-- Tool: Eclipse IDE 2019-09
-```
+
+- Front End
+``` HTML, JSP, CSS ```
+- Server Side
+``` Servlet ```
+- Back End
+``` MYSQL 8.0.34 ```
+- Server
+``` Tomcat 9.0 ```
+- Tools
+``` Eclipse IDE 2019-09 ```
 
 ### Installation
 After cloning the repository in your computer using Eclipse, you will probably need to these for working properly :
